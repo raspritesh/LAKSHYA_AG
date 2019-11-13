@@ -37,7 +37,7 @@ def issue():
         	inp4=raw_input("Enter issuedate").strip('\n')  # for eg. 22/07/2017
         	inp5=raw_input("Enter return date").strip('\n')
         	inp6=1
-        	print "Book Issued"
+        	print "Book Issued successfully"
         	sql="insert into d(id,name,bookid,bookname,issuedate,returndate,status) values('%s','%s','%s','%s','%s','%s','%s');"%(inp1,inp2,res,inp3,inp4,inp5,inp6)
 		try:
                 	
